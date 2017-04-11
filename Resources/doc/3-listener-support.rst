@@ -30,8 +30,7 @@ to enable a few additional listeners:
             view_response_listener: 'force'
 
 It is possible to replace the service used for each of the listener if needed.
-In this case, the Bundle listener will still be configured, however it will
-not be registered in the kernel. The custom service listener will however not
+In this case, the Bundle listener will still be configured, The custom service listener will however not
 be registered in the kernel, so it is up to the user to register it for the
 appropriate event:
 
